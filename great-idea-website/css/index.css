@@ -65,7 +65,7 @@ h1, h2, h3, h4, h5 {
 
 /* Your code starts here! */
 
-.container{
+body{
 	width: 100%;
 	padding: 2% 5%;
 }
@@ -80,14 +80,15 @@ a{
 }
 
 h1{
-	font-size: 300%;
+	font-size: 400%;
 }
 
 
 .headerdiv{
 	display:inline-block;
-	width: 49%;
+	width: 40%;
 	text-align: center;
+	margin:5%;
 }
 
 header span{
@@ -98,6 +99,7 @@ header span{
 .firstpic{
 	display:inline-block;
 	width:30%;
+	margin-left: 15%;
 }
 
 header{
@@ -114,6 +116,12 @@ header{
 	display: inline-block;
 }
 
+#column{
+	width: 48%;
+	display: inline-block;
+	padding-left: 2%;
+}
+
 .middle-img{
 	width: 100%;
 }
@@ -126,6 +134,12 @@ header{
 .secsec div{
 	width: 33%;
 	display: inline-block;
+}
+
+#space{
+	width: 33%;
+	display: inline-block;
+	padding: 0% 1%;
 }
 
 .contact{
