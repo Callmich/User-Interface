@@ -67,7 +67,6 @@ h1, h2, h3, h4, h5 {
 
 .container{
 	width: 100%;
-	border: red 1px solid;
 	padding: 2% 5%;
 }
 
@@ -88,7 +87,12 @@ h1{
 .headerdiv{
 	display:inline-block;
 	width: 49%;
-	padding-left: 20%;
+	text-align: center;
+}
+
+header span{
+	border: black 1px solid;
+	padding: .25% 6%;
 }
 
 .firstpic{
@@ -106,7 +110,7 @@ header{
 }
 
 .firstsec div{
-	width: 49%;
+	width: 48%;
 	display: inline-block;
 }
 
